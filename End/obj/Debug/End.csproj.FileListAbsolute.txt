@@ -1,0 +1,14 @@
+D:\Sourcetree\git\End\End\bin\Debug\End.exe.config
+D:\Sourcetree\git\End\End\bin\Debug\End.exe
+D:\Sourcetree\git\End\End\bin\Debug\End.pdb
+D:\Sourcetree\git\End\End\obj\Debug\End.csprojResolveAssemblyReference.cache
+D:\Sourcetree\git\End\End\obj\Debug\MainWindow.g.cs
+D:\Sourcetree\git\End\End\obj\Debug\App.g.cs
+D:\Sourcetree\git\End\End\obj\Debug\End_MarkupCompile.cache
+D:\Sourcetree\git\End\End\obj\Debug\End_MarkupCompile.lref
+D:\Sourcetree\git\End\End\obj\Debug\MainWindow.baml
+D:\Sourcetree\git\End\End\obj\Debug\End.g.resources
+D:\Sourcetree\git\End\End\obj\Debug\End.Properties.Resources.resources
+D:\Sourcetree\git\End\End\obj\Debug\End.csproj.GenerateResource.Cache
+D:\Sourcetree\git\End\End\obj\Debug\End.exe
+D:\Sourcetree\git\End\End\obj\Debug\End.pdb
