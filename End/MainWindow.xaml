@@ -5,17 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:End"
         mc:Ignorable="d"
-        Title="MainWindow" Height="500" Width="750">
+        Title="MainWindow" Height="500" Width="750" Background="LightCyan">
     <Grid>
-        <StackPanel Orientation="Horizontal" Margin="10 50 10 10">
-            <StackPanel Margin="0 0 400 0" Width="310">
+        <TextBlock Margin="0 35 0 0" FontSize="15">------------食材---不想吃-------------------好想吃-------食材---不想吃-------------------好想吃---------------</TextBlock>
+        <StackPanel Orientation="Horizontal" Margin="10 80 10 10">
+            <StackPanel Margin="18 0 0 0" Width="310">
 
                 <Canvas Width="200" Height="25" Margin="88 0 0 0">
                     <Border CornerRadius="8" Background="#FFFFD0D7" x:Name="Rice">
                         <TextBlock x:Name="RiceNumber" Width="50" TextAlignment="Center" Padding="0 3">0</TextBlock>
                     </Border>
-                    </Canvas>
-                
+                </Canvas>
+
                 <StackPanel Orientation="Horizontal">
                     <TextBlock FontSize="15" Margin="50 0 10 0">米飯</TextBlock>
                     <Slider Width="200" Margin="16 0 0 0" Minimum="0" Maximum="100" Background="LightCyan" x:Name="RiceSlider" ValueChanged="RiceSlider_ValueChanged"></Slider>
@@ -32,16 +33,94 @@
                     <Slider Width="200" Margin="16 0 0 0" Minimum="0" Maximum="100" Background="LightCyan" x:Name="NoodlesSlider" ValueChanged="WeightSlider_ValueChanged"></Slider>
                 </StackPanel>
 
-                <Button Height="50" Margin="50 200 50 0" x:Name="Result" Click="Result_Click">RS</Button>
-                <TextBlock Height="50" Margin="50 10 50 0" TextAlignment="Right" x:Name="ResultShowing"></TextBlock>
+                <Canvas Width="200" Height="25" Margin="88 10 0 0">
+                    <Border CornerRadius="8" Background="#FFFFD0D7" x:Name="Pork">
+                        <TextBlock x:Name="PorkNumber" Width="50" TextAlignment="Center" Padding="0 3">0</TextBlock>
+                    </Border>
+                </Canvas>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="15" Margin="50 0 10 0">豬肉</TextBlock>
+                    <Slider Width="200" Margin="16 0 0 0" Minimum="0" Maximum="100" Background="LightCyan" x:Name="PorkSlider" ValueChanged="PorkSlider_ValueChanged"></Slider>
+                </StackPanel>
+
+                <Canvas Width="200" Height="25" Margin="88 10 0 0">
+                    <Border CornerRadius="8" Background="#FFFFD0D7" x:Name="Chicken">
+                        <TextBlock x:Name="ChickenNumber" Width="50" TextAlignment="Center" Padding="0 3">0</TextBlock>
+                    </Border>
+                </Canvas>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="15" Margin="50 0 10 0">雞肉</TextBlock>
+                    <Slider Width="200" Margin="16 0 0 0" Minimum="0" Maximum="100" Background="LightCyan" x:Name="ChickenSlider" ValueChanged="ChickenSlider_ValueChanged"></Slider>
+                </StackPanel>
+
+                <Canvas Width="200" Height="25" Margin="88 10 0 0">
+                    <Border CornerRadius="8" Background="#FFFFD0D7" x:Name="Beef">
+                        <TextBlock x:Name="BeefNumber" Width="50" TextAlignment="Center" Padding="0 3">0</TextBlock>
+                    </Border>
+                </Canvas>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="15" Margin="50 0 10 0">牛肉</TextBlock>
+                    <Slider Width="200" Margin="16 0 0 0" Minimum="0" Maximum="100" Background="LightCyan" x:Name="BeefSlider" ValueChanged="BeefSlider_ValueChanged"></Slider>
+                </StackPanel>
+
+            </StackPanel>
+
+            <StackPanel Margin="0 0 0 0" Width="310">
+
+                <Canvas Width="200" Height="25" Margin="88 0 0 0">
+                    <Border CornerRadius="8" Background="#FFFFD0D7" x:Name="Dumplings">
+                        <TextBlock x:Name="DumplingsNumber" Width="50" TextAlignment="Center" Padding="0 3">0</TextBlock>
+                    </Border>
+                </Canvas>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="15" Margin="50 0 10 0">水餃</TextBlock>
+                    <Slider Width="200" Margin="16 0 0 0" Minimum="0" Maximum="100" Background="LightCyan" x:Name="DumplingsSlider" ValueChanged="DumplingsSlider_ValueChanged"></Slider>
+                </StackPanel>
+
+                <Canvas Width="200" Height="25" Margin="88 10 0 0">
+                    <Border CornerRadius="8" Background="#FFFFD0D7" x:Name="Cabbage">
+                        <TextBlock x:Name="CabbageNumber" Width="50" TextAlignment="Center" Padding="0 3">0</TextBlock>
+                    </Border>
+                </Canvas>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="15" Margin="38 0 7 0">高麗菜</TextBlock>
+                    <Slider Width="200" Margin="16 0 0 0" Minimum="0" Maximum="100" Background="LightCyan" x:Name="CabbageSlider" ValueChanged="CabbageSlider_ValueChanged"></Slider>
+                </StackPanel>
+
+                <Canvas Width="200" Height="25" Margin="88 10 0 0">
+                    <Border CornerRadius="8" Background="#FFFFD0D7" x:Name="Amaranth">
+                        <TextBlock x:Name="AmaranthNumber" Width="50" TextAlignment="Center" Padding="0 3">0</TextBlock>
+                    </Border>
+                </Canvas>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="15" Margin="50 0 10 0">韭菜</TextBlock>
+                    <Slider Width="200" Margin="16 0 0 0" Minimum="0" Maximum="100" Background="LightCyan" x:Name="AmaranthSlider" ValueChanged="AmaranthSlider_ValueChanged"></Slider>
+                </StackPanel>
+
+                <Canvas Width="200" Height="25" Margin="88 10 0 0">
+                    <Border CornerRadius="8" Background="#FFFFD0D7" x:Name="FishMeat">
+                        <TextBlock x:Name="FishMeatNumber" Width="50" TextAlignment="Center" Padding="0 3">0</TextBlock>
+                    </Border>
+                </Canvas>
+
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock FontSize="15" Margin="50 0 10 0">魚肉</TextBlock>
+                    <Slider Width="200" Margin="16 0 0 0" Minimum="0" Maximum="100" Background="LightCyan" x:Name="FishMeatSlider" ValueChanged="FishMeatSlider_ValueChanged"></Slider>
+                </StackPanel>
+
+                <Button FontSize="15" Margin="30 40 215 0" x:Name="Result" Click="Result_Click">吃啥!</Button>
+                <TextBlock FontSize="25" Height="50" Margin="100 10 50 0" TextAlignment="Center" x:Name="ResultShowing">-晚餐-</TextBlock>
 
             </StackPanel>
 
             <StackPanel Orientation="Horizontal">
-
             </StackPanel>
-
         </StackPanel>
-        
     </Grid>
 </Window>
